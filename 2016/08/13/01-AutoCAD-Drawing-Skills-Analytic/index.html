@@ -1,0 +1,602 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>01_AutoCAD绘图技巧分析 | LCDE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="HSQ">
+    
+
+    
+    <meta name="description" content="本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上L（大小写无所谓）。当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快大家的绘图速度">
+<meta property="og:type" content="article">
+<meta property="og:title" content="01_AutoCAD绘图技巧分析">
+<meta property="og:url" content="http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/index.html">
+<meta property="og:site_name" content="LCDE">
+<meta property="og:description" content="本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上L（大小写无所谓）。当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快大家的绘图速度">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjmdsc59j30ps0as75d.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjmnhdylj30r506xgmf.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjn6fqlqj30r50btab7.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjnu9c8ij30r30bmdh9.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjlgwfn1j30r30dhabr.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjkdi0g3j30d109n3zt.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjjznygqj30jh0br74o.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjji3yfoj30r30fwq4y.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjix3edfj30r30ij0tu.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjifs6x3j30l50g4js4.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhzcj1kj30qd0hsmxv.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhhmy2tj30r30gi74y.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjgsp22oj30q00e6756.jpg">
+<meta property="og:updated_time" content="2016-08-16T05:55:43.148Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="01_AutoCAD绘图技巧分析">
+<meta name="twitter:description" content="本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上L（大小写无所谓）。当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快大家的绘图速度">
+<meta name="twitter:image" content="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjmdsc59j30ps0as75d.jpg">
+
+    
+    <link rel="alternative" href="/atom.xml" title="LCDE" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/hsq.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/hsq.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="LCDE" title="LCDE"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="LCDE">LCDE</a></h1>
+				<h2 class="blog-motto">制图方面经验总结</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于我</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:lcde.ga">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/" title="01_AutoCAD绘图技巧分析" itemprop="url">01_AutoCAD绘图技巧分析</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="HSQ" target="_blank" itemprop="author">HSQ</a>
+		
+  <p class="article-time">
+    <time datetime="2016-08-13T11:43:41.000Z" itemprop="datePublished"> Published 2016-08-13</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本小节知识点："><span class="toc-number">1.</span> <span class="toc-text">本小节知识点：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-直线、圆的键盘运用技巧"><span class="toc-number">1.1.</span> <span class="toc-text">1.直线、圆的键盘运用技巧</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-修改平面图的键盘运用技巧"><span class="toc-number">1.2.</span> <span class="toc-text">2.修改平面图的键盘运用技巧</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。<br>本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写<br>单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上<code>L</code>（大小写无所谓）。<br>当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快<br><strong>大家的绘图速度。全文以减速箱零件图的绘制为主要任务。</strong></p>
+<a id="more"></a>
+<h2 id="本小节知识点："><a href="#本小节知识点：" class="headerlink" title="本小节知识点："></a>本小节知识点：</h2><ol>
+<li><p>【掌握】直线、圆的键盘运用技巧</p>
+</li>
+<li><p>【掌握】修改平面图的键盘运用技巧</p>
+</li>
+<li><p>【了解】画图环境的个性设置</p>
+</li>
+<li><p>【掌握】平面图转三维图的键盘运用技巧</p>
+</li>
+</ol>
+<h3 id="1-直线、圆的键盘运用技巧"><a href="#1-直线、圆的键盘运用技巧" class="headerlink" title="1.直线、圆的键盘运用技巧"></a>1.直线、圆的键盘运用技巧</h3><p>AutoCAD在绘制时，要对软件发出命令时，主要有两个方式</p>
+<ul>
+<li>通过鼠标选择命令条上的命令按钮</li>
+<li>通过键盘输入英文字母，即软件约定好的命令缩写字母</li>
+</ul>
+<ul>
+<li><strong>直线的绘制：</strong></li>
+</ul>
+<p>在这里主要讲第二种方式，就是通过键盘输入英文字母。接下来画一段100mm的线段为例。</p>
+<p>在软件没有命令要执行的情况下，即在空闲状态。</p>
+<p><img src="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjmdsc59j30ps0as75d.jpg" alt="01.png"></p>
+<p>输入英文字母l（要在输入法是英文状态下输入，若要使打出汉字，软件识别不出命令，更不会去执行）。<br>一般在下面的命令栏里面会出现一个英文字母l。之后点击Enter或空格键，这时会看到命令栏里显示出软<br>件系统提示的命令。</p>
+<p><img src="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjmnhdylj30r506xgmf.jpg" alt="02.png"></p>
+<p>这时，有两种方式去画一条线段。</p>
+<ul>
+<li>第一种：鼠标点击到一点，命令栏里面会提示画图者去“指定下一点或者放弃（U）”。当第二点用鼠标点指定后，线段的长度<br>即确定。当然了，接下来不用输入命令，就可以指出下一点的位置，画出无数的首尾相连的线段。</li>
+</ul>
+<p><img src="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjn6fqlqj30r50btab7.jpg" alt="03.png"></p>
+<p><img src="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjnu9c8ij30r30bmdh9.jpg" alt="04.png"></p>
+<ul>
+<li>第二种：鼠标点击到下一点，接下来输入100，然后鼠标给线段一个方向，不需要点击鼠标，在方向确定下来后（会有一条虚线<br>出来），点击键盘上的Enter或空格键表示确定。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjlgwfn1j30r30dhabr.jpg" alt="05.png"></p>
+<p><strong>总结：</strong></p>
+<ul>
+<li>软件在不确定是否为工作状态的时候，<strong>点击Esc键</strong>，可以退出工作状态</li>
+<li>Windows下多数快捷键，在AutoCAD中配合命令来使用可以提供绘图速度。你还可以根据自己的工作环境定制一些快捷键</li>
+<li><strong>在鼠标配合键盘制图的过程中，时刻要看命令栏里输入的命令以及软件提示绘图者接下来要做哪些工作</strong></li>
+<li>了解命令的参数，例如：绘制线段过程中，需要知道线段的起点坐标，重点坐标或者说是直线的起点，方向，长度等等</li>
+<li>数学知识：线段的性质：两端都是有端点，不可延长，有别于直线，射线</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">快捷键</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + C</td>
+<td style="text-align:left">复制</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + V</td>
+<td style="text-align:left">粘贴</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + X</td>
+<td style="text-align:left">剪切</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">撤回</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>圆的绘制</strong></li>
+</ul>
+<h3 id="2-修改平面图的键盘运用技巧"><a href="#2-修改平面图的键盘运用技巧" class="headerlink" title="2.修改平面图的键盘运用技巧"></a>2.修改平面图的键盘运用技巧</h3><p>我们已经学会如何快速的绘制直线和圆，但是在我们的图纸中，需要不断的修改。在这里介绍一些快捷修改方式</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">快捷键</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">撤回</td>
+</tr>
+<tr>
+<td style="text-align:left">Delete</td>
+<td style="text-align:left">删除</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">剪刀命令</td>
+</tr>
+<tr>
+<td style="text-align:left">MA</td>
+<td style="text-align:left">格式刷</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意点：</strong> 简单的平面图可以选择MA命令来操作，但是大型复杂的图形，存在很多样条，颜色的零件图，不建议使用。</p>
+<p>下面我就用具体案例讲解修改平面图的技巧：</p>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjkdi0g3j30d109n3zt.jpg" alt="06.png"></p>
+<ul>
+<li>首先确定，我们结合三个视图画出左上角的视图。我们先驱动上面的两个同心圆的位置，画个十字交叉的点划线。之后画出<br>两条相互垂直的实线，然后以两条的交点画两个同心圆，者两个圆的半径有视图可以找到。分别是半径是15，30.画出即可：</li>
+</ul>
+<p><img src="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjjznygqj30jh0br74o.jpg" alt="07.png"></p>
+<ul>
+<li>然后再找下底面的线，这里面有个操作技巧，也会经常用到的。在找最下面的线时，我们完全可以画出一条新的线。当然也可以使用已有的线段通过平行移动到他的位置。这样我们节省了一步画线段的步骤。比如：选中同心圆的水平线，会在这条线的两段和中点出现三个蓝色的夹点，我们可以用鼠标点中任意的一个点，会变成红色，比如下图。然后命令栏里面会提示“指定拉伸点或【几点（B）/复制（C）/放弃（U）/推出（X）】”：说明我们可以选择四个命令，基点的意思是，重新选择这条直线的红色的夹点。复制是将这条直线复制到另外一个地点，原直线不变。新的直线只需要给定一点既可以确认，因为既然是复制，就表明了和原来的直线是平行的。当然了，我们可以用鼠标选定一个方向，输入距离既可以了。要想不然原直线消失，就必须在输入距离之前，输入键盘上的字母“ C”，表明是复制原直线。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjji3yfoj30r30fwq4y.jpg" alt="09.png"></p>
+<ul>
+<li><strong>在出现拉伸的命令时，我们可以一直按空格键，可以依次跳出拉伸、移动、旋转、比例缩放、镜像，循环出现。这个命令是不是很强大。</strong></li>
+<li>我们找到地平面的上表面，通过平移复制，均可以轻松得到。我们可以把中心线标记成红色的点划线，看不到的线为黄色的虚线。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjix3edfj30r30ij0tu.jpg" alt="10.png"></p>
+<ul>
+<li>接下来就是要修剪了，我们选择用命令“TR”</li>
+</ul>
+<p><img src="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjifs6x3j30l50g4js4.jpg" alt="11.png"></p>
+<ul>
+<li>是不是有轮廓了，接下来用圆外一点向圆画切线。在这里，因为图形是对称图形，我只画了该图形的一半既可以了。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhzcj1kj30qd0hsmxv.jpg" alt="12.png"></p>
+<ul>
+<li>好的，我们画光孔，先确定孔的位置，然后画圆。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhhmy2tj30r30gi74y.jpg" alt="13.png"></p>
+<ul>
+<li>好的，最后一步，镜像就好了。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjgsp22oj30q00e6756.jpg" alt="14.png"></p>
+<p><strong>总结：</strong></p>
+<p>本图虽然简单，但是却用到了常用的画图技巧，对熟练掌握键盘画图操作，会有很大帮助。希望大家反复练习，有什么问题，也可以给我留言，我们一起讨论。</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/AutoCAD/">AutoCAD</a><a href="/tags/绘图技巧/">绘图技巧</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/" data-title="01_AutoCAD绘图技巧分析 | LCDE" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/" data-title="01_AutoCAD绘图技巧分析" data-url="http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本小节知识点："><span class="toc-number">1.</span> <span class="toc-text">本小节知识点：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-直线、圆的键盘运用技巧"><span class="toc-number">1.1.</span> <span class="toc-text">1.直线、圆的键盘运用技巧</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-修改平面图的键盘运用技巧"><span class="toc-number">1.2.</span> <span class="toc-text">2.修改平面图的键盘运用技巧</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/AutoCAD/" title="AutoCAD">AutoCAD<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/绘图技巧/" title="绘图技巧">绘图技巧<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="HSQ">HSQ</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"lcde"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

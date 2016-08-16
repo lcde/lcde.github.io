@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LCDE</title>
+  <subtitle>制图方面经验总结</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lcde.ga/"/>
+  <updated>2016-08-16T05:55:43.148Z</updated>
+  <id>http://lcde.ga/</id>
+  
+  <author>
+    <name>HSQ</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>01_AutoCAD绘图技巧分析</title>
+    <link href="http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/"/>
+    <id>http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/</id>
+    <published>2016-08-13T11:43:41.000Z</published>
+    <updated>2016-08-16T05:55:43.148Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。<br>本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写<br>单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上<code>L</code>（大小写无所谓）。<br>当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快<br><strong>大家的绘图速度。全文以减速箱零件图的绘制为主要任务。</strong></p>
+<a id="more"></a>
+<h2 id="本小节知识点："><a href="#本小节知识点：" class="headerlink" title="本小节知识点："></a>本小节知识点：</h2><ol>
+<li><p>【掌握】直线、圆的键盘运用技巧</p>
+</li>
+<li><p>【掌握】修改平面图的键盘运用技巧</p>
+</li>
+<li><p>【了解】画图环境的个性设置</p>
+</li>
+<li><p>【掌握】平面图转三维图的键盘运用技巧</p>
+</li>
+</ol>
+<h3 id="1-直线、圆的键盘运用技巧"><a href="#1-直线、圆的键盘运用技巧" class="headerlink" title="1.直线、圆的键盘运用技巧"></a>1.直线、圆的键盘运用技巧</h3><p>AutoCAD在绘制时，要对软件发出命令时，主要有两个方式</p>
+<ul>
+<li>通过鼠标选择命令条上的命令按钮</li>
+<li>通过键盘输入英文字母，即软件约定好的命令缩写字母</li>
+</ul>
+<ul>
+<li><strong>直线的绘制：</strong></li>
+</ul>
+<p>在这里主要讲第二种方式，就是通过键盘输入英文字母。接下来画一段100mm的线段为例。</p>
+<p>在软件没有命令要执行的情况下，即在空闲状态。</p>
+<p><img src="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjmdsc59j30ps0as75d.jpg" alt="01.png"></p>
+<p>输入英文字母l（要在输入法是英文状态下输入，若要使打出汉字，软件识别不出命令，更不会去执行）。<br>一般在下面的命令栏里面会出现一个英文字母l。之后点击Enter或空格键，这时会看到命令栏里显示出软<br>件系统提示的命令。</p>
+<p><img src="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjmnhdylj30r506xgmf.jpg" alt="02.png"></p>
+<p>这时，有两种方式去画一条线段。</p>
+<ul>
+<li>第一种：鼠标点击到一点，命令栏里面会提示画图者去“指定下一点或者放弃（U）”。当第二点用鼠标点指定后，线段的长度<br>即确定。当然了，接下来不用输入命令，就可以指出下一点的位置，画出无数的首尾相连的线段。</li>
+</ul>
+<p><img src="http://ww2.sinaimg.cn/large/006tKfTcgw1f6vjn6fqlqj30r50btab7.jpg" alt="03.png"></p>
+<p><img src="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjnu9c8ij30r30bmdh9.jpg" alt="04.png"></p>
+<ul>
+<li>第二种：鼠标点击到下一点，接下来输入100，然后鼠标给线段一个方向，不需要点击鼠标，在方向确定下来后（会有一条虚线<br>出来），点击键盘上的Enter或空格键表示确定。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjlgwfn1j30r30dhabr.jpg" alt="05.png"></p>
+<p><strong>总结：</strong></p>
+<ul>
+<li>软件在不确定是否为工作状态的时候，<strong>点击Esc键</strong>，可以退出工作状态</li>
+<li>Windows下多数快捷键，在AutoCAD中配合命令来使用可以提供绘图速度。你还可以根据自己的工作环境定制一些快捷键</li>
+<li><strong>在鼠标配合键盘制图的过程中，时刻要看命令栏里输入的命令以及软件提示绘图者接下来要做哪些工作</strong></li>
+<li>了解命令的参数，例如：绘制线段过程中，需要知道线段的起点坐标，重点坐标或者说是直线的起点，方向，长度等等</li>
+<li>数学知识：线段的性质：两端都是有端点，不可延长，有别于直线，射线</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">快捷键</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + C</td>
+<td style="text-align:left">复制</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + V</td>
+<td style="text-align:left">粘贴</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + X</td>
+<td style="text-align:left">剪切</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">撤回</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>圆的绘制</strong></li>
+</ul>
+<h3 id="2-修改平面图的键盘运用技巧"><a href="#2-修改平面图的键盘运用技巧" class="headerlink" title="2.修改平面图的键盘运用技巧"></a>2.修改平面图的键盘运用技巧</h3><p>我们已经学会如何快速的绘制直线和圆，但是在我们的图纸中，需要不断的修改。在这里介绍一些快捷修改方式</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">快捷键</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">撤回</td>
+</tr>
+<tr>
+<td style="text-align:left">Delete</td>
+<td style="text-align:left">删除</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Z</td>
+<td style="text-align:left">剪刀命令</td>
+</tr>
+<tr>
+<td style="text-align:left">MA</td>
+<td style="text-align:left">格式刷</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意点：</strong> 简单的平面图可以选择MA命令来操作，但是大型复杂的图形，存在很多样条，颜色的零件图，不建议使用。</p>
+<p>下面我就用具体案例讲解修改平面图的技巧：</p>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjkdi0g3j30d109n3zt.jpg" alt="06.png"></p>
+<ul>
+<li>首先确定，我们结合三个视图画出左上角的视图。我们先驱动上面的两个同心圆的位置，画个十字交叉的点划线。之后画出<br>两条相互垂直的实线，然后以两条的交点画两个同心圆，者两个圆的半径有视图可以找到。分别是半径是15，30.画出即可：</li>
+</ul>
+<p><img src="http://ww4.sinaimg.cn/large/006tKfTcgw1f6vjjznygqj30jh0br74o.jpg" alt="07.png"></p>
+<ul>
+<li>然后再找下底面的线，这里面有个操作技巧，也会经常用到的。在找最下面的线时，我们完全可以画出一条新的线。当然也可以使用已有的线段通过平行移动到他的位置。这样我们节省了一步画线段的步骤。比如：选中同心圆的水平线，会在这条线的两段和中点出现三个蓝色的夹点，我们可以用鼠标点中任意的一个点，会变成红色，比如下图。然后命令栏里面会提示“指定拉伸点或【几点（B）/复制（C）/放弃（U）/推出（X）】”：说明我们可以选择四个命令，基点的意思是，重新选择这条直线的红色的夹点。复制是将这条直线复制到另外一个地点，原直线不变。新的直线只需要给定一点既可以确认，因为既然是复制，就表明了和原来的直线是平行的。当然了，我们可以用鼠标选定一个方向，输入距离既可以了。要想不然原直线消失，就必须在输入距离之前，输入键盘上的字母“ C”，表明是复制原直线。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjji3yfoj30r30fwq4y.jpg" alt="09.png"></p>
+<ul>
+<li><strong>在出现拉伸的命令时，我们可以一直按空格键，可以依次跳出拉伸、移动、旋转、比例缩放、镜像，循环出现。这个命令是不是很强大。</strong></li>
+<li>我们找到地平面的上表面，通过平移复制，均可以轻松得到。我们可以把中心线标记成红色的点划线，看不到的线为黄色的虚线。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjix3edfj30r30ij0tu.jpg" alt="10.png"></p>
+<ul>
+<li>接下来就是要修剪了，我们选择用命令“TR”</li>
+</ul>
+<p><img src="http://ww3.sinaimg.cn/large/006tKfTcgw1f6vjifs6x3j30l50g4js4.jpg" alt="11.png"></p>
+<ul>
+<li>是不是有轮廓了，接下来用圆外一点向圆画切线。在这里，因为图形是对称图形，我只画了该图形的一半既可以了。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhzcj1kj30qd0hsmxv.jpg" alt="12.png"></p>
+<ul>
+<li>好的，我们画光孔，先确定孔的位置，然后画圆。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjhhmy2tj30r30gi74y.jpg" alt="13.png"></p>
+<ul>
+<li>好的，最后一步，镜像就好了。</li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/006tKfTcgw1f6vjgsp22oj30q00e6756.jpg" alt="14.png"></p>
+<p><strong>总结：</strong></p>
+<p>本图虽然简单，但是却用到了常用的画图技巧，对熟练掌握键盘画图操作，会有很大帮助。希望大家反复练习，有什么问题，也可以给我留言，我们一起讨论。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。&lt;br&gt;本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写&lt;br&gt;单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上&lt;code&gt;L&lt;/code&gt;（大小写无所谓）。&lt;br&gt;当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快&lt;br&gt;&lt;strong&gt;大家的绘图速度。全文以减速箱零件图的绘制为主要任务。&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="AutoCAD" scheme="http://lcde.ga/tags/AutoCAD/"/>
+    
+      <category term="绘图技巧" scheme="http://lcde.ga/tags/%E7%BB%98%E5%9B%BE%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+</feed>
