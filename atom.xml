@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LCDE</title>
-  <subtitle>制图方面经验总结</subtitle>
+  <title>杨家宾的制图博客</title>
+  <subtitle>记录自己学习的经验</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcde.ga/"/>
-  <updated>2016-08-16T05:55:43.148Z</updated>
+  <updated>2016-08-24T18:33:51.981Z</updated>
   <id>http://lcde.ga/</id>
   
   <author>
-    <name>HSQ</name>
+    <name>yhyangjiabin</name>
     
   </author>
   
@@ -20,7 +20,7 @@
     <link href="http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/"/>
     <id>http://lcde.ga/2016/08/13/01-AutoCAD-Drawing-Skills-Analytic/</id>
     <published>2016-08-13T11:43:41.000Z</published>
-    <updated>2016-08-16T05:55:43.148Z</updated>
+    <updated>2016-08-24T18:33:51.981Z</updated>
     
     <content type="html"><![CDATA[<p>本文对AutoCAD 2008 版本有一定绘图技巧的人，通过本文，可以使读者在绘图速度上有一定的提高。<br>本文主要加深画图者运用键盘的能力。前期要慢慢培养成集合键盘的辅助。发出命令，记住命令的缩写<br>单词，是必不可少的。比如直线的英文是Line，所以AutoCAD的直线命令就是键盘上<code>L</code>（大小写无所谓）。<br>当然了，有些命令会多余两个字母，需要大家多下点功夫，多记忆，多操作。运用熟练后，会大大加快<br><strong>大家的绘图速度。全文以减速箱零件图的绘制为主要任务。</strong></p>
 <a id="more"></a>
